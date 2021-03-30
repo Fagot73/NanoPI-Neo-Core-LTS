@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name lscan)(type KiCad)(uri /home/reestr/projects/geom/lidar/lidar-kicad/L-SCAN/lscan-nanopi-universal-v1/libs/lscan.pretty)(options "")(descr ""))
+  (lib (name NanoPI)(type KiCad)(uri ${KIPRJMOD}/libs/NanoPI.pretty)(options "")(descr ""))
+)

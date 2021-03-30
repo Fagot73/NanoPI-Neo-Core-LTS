@@ -1,0 +1,312 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NanoPI:Allwinner_H3 IC1
+U 1 1 60612552
+P 8900 1300
+F 0 "IC1" H 9850 1565 50  0000 C CNN
+F 1 "Allwinner_H3" H 9850 1474 50  0000 C CNN
+F 2 "BGA347C65P21X21_1400X1400X118" H 10650 1400 50  0001 L CNN
+F 3 "http://linux-sunxi.org/images/4/4b/Allwinner_H3_Datasheet_V1.2.pdf" H 10650 1300 50  0001 L CNN
+F 4 "QUAD-CORE OTT BOX PROCESSOR" H 10650 1200 50  0001 L CNN "Description"
+F 5 "1.18" H 10650 1100 50  0001 L CNN "Height"
+F 6 "Allwinner Technology" H 10650 1000 50  0001 L CNN "Manufacturer_Name"
+F 7 "Allwinner H3" H 10650 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 10650 800 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 10650 700 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10650 600 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10650 500 50  0001 L CNN "Arrow Price/Stock"
+	1    8900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 6061560A
+P 7650 1400
+F 0 "J1" H 7707 1867 50  0000 C CNN
+F 1 "USB_B_Micro" H 7707 1776 50  0000 C CNN
+F 2 "NanoPI:USB_Micro-B_Molex-105017-0001" H 7800 1350 50  0001 C CNN
+F 3 "~" H 7800 1350 50  0001 C CNN
+	1    7650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J2
+U 1 1 6061DD16
+P 7750 3600
+F 0 "J2" H 7700 4317 50  0000 C CNN
+F 1 "Micro_SD_Card" H 7700 4226 50  0000 C CNN
+F 2 "NanoPI:sdcard-from-nanopi_core" H 8900 3900 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 7750 3600 50  0001 C CNN
+	1    7750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1600 3100 1400
+Wire Wire Line
+	3200 1600 3200 1400
+Wire Wire Line
+	3300 1600 3300 1400
+Wire Wire Line
+	3400 1600 3400 1400
+Wire Wire Line
+	3500 1600 3500 1400
+Wire Wire Line
+	3600 1600 3600 1400
+Wire Wire Line
+	3700 1600 3700 1400
+Wire Wire Line
+	3800 1600 3800 1400
+Wire Wire Line
+	3900 1600 3900 1400
+Wire Wire Line
+	5000 1900 5200 1900
+Wire Wire Line
+	5000 2100 5200 2100
+Wire Wire Line
+	5000 2200 5200 2200
+Wire Wire Line
+	5000 2300 5200 2300
+Wire Wire Line
+	5000 2400 5200 2400
+Wire Wire Line
+	5000 2500 5200 2500
+Wire Wire Line
+	5000 2600 5200 2600
+Wire Wire Line
+	5000 3200 5200 3200
+Wire Wire Line
+	5000 3300 5200 3300
+Wire Wire Line
+	5000 3500 5200 3500
+Wire Wire Line
+	5000 3600 5200 3600
+Wire Wire Line
+	5000 3800 5200 3800
+Wire Wire Line
+	5000 3900 5200 3900
+Wire Wire Line
+	5000 4100 5200 4100
+Wire Wire Line
+	5000 4200 5200 4200
+Wire Wire Line
+	5000 4400 5200 4400
+Wire Wire Line
+	5000 4500 5200 4500
+Wire Wire Line
+	5000 4700 5200 4700
+Wire Wire Line
+	5000 4800 5200 4800
+Wire Wire Line
+	5000 4900 5200 4900
+Wire Wire Line
+	1600 2000 1800 2000
+Wire Wire Line
+	1600 2100 1800 2100
+Wire Wire Line
+	1600 2300 1800 2300
+Wire Wire Line
+	1600 2400 1800 2400
+Wire Wire Line
+	1600 2500 1800 2500
+Wire Wire Line
+	1600 2600 1800 2600
+Wire Wire Line
+	1600 2800 1800 2800
+Wire Wire Line
+	1600 2900 1800 2900
+Wire Wire Line
+	1600 3000 1800 3000
+Wire Wire Line
+	1600 3100 1800 3100
+Wire Wire Line
+	1600 3300 1800 3300
+Wire Wire Line
+	1600 3400 1800 3400
+Wire Wire Line
+	1600 3500 1800 3500
+Wire Wire Line
+	1600 3600 1800 3600
+Wire Wire Line
+	1600 4400 1800 4400
+Wire Wire Line
+	1600 4500 1800 4500
+Wire Wire Line
+	1600 4600 1800 4600
+Wire Wire Line
+	1600 4700 1800 4700
+Wire Wire Line
+	1600 4900 1800 4900
+Wire Wire Line
+	1600 5000 1800 5000
+Wire Wire Line
+	1600 5100 1800 5100
+Wire Wire Line
+	1600 5200 1800 5200
+Wire Wire Line
+	1600 4100 1800 4100
+Wire Wire Line
+	1600 4200 1800 4200
+Wire Wire Line
+	1600 3800 1800 3800
+Wire Wire Line
+	1600 3900 1800 3900
+Wire Wire Line
+	1600 5400 1800 5400
+Wire Wire Line
+	3600 5700 3800 5700
+Text Label 3100 1400 1    50   ~ 0
+5V
+Text Label 3200 1400 1    50   ~ 0
+5V
+Text Label 3300 1400 1    50   ~ 0
+VDD_5V
+Text Label 3400 1400 1    50   ~ 0
+VDD_5V
+Text Label 3500 1400 1    50   ~ 0
+VDD_5V
+Text Label 3600 1400 1    50   ~ 0
+VDD_5V
+Text Label 3700 1400 1    50   ~ 0
+SYS_3.3V
+Text Label 3800 1400 1    50   ~ 0
+SYS_3.3V
+Text Label 3900 1400 1    50   ~ 0
+SYS_3.3V
+Text Label 5200 2300 0    50   ~ 0
+ETH_TRD1+
+Text Label 5200 2400 0    50   ~ 0
+ETH_TRD1-
+Text Label 5200 2500 0    50   ~ 0
+ETH_TRD2+
+Text Label 5200 2600 0    50   ~ 0
+ETH_TRD2-
+Text Label 5200 3200 0    50   ~ 0
+LINE-OUT-R
+Text Label 5200 3300 0    50   ~ 0
+LINE-OUT-L
+Text Label 5200 3500 0    50   ~ 0
+MIC-IN-P
+Text Label 5200 3600 0    50   ~ 0
+MIC-IN-N
+Text Label 5200 3800 0    50   ~ 0
+USB1-DP+
+Text Label 5200 3900 0    50   ~ 0
+USB1-DM-
+Text Label 5200 4100 0    50   ~ 0
+USB2-DP+
+Text Label 5200 4200 0    50   ~ 0
+USB2-DM-
+Text Label 5200 4400 0    50   ~ 0
+USB3-DP+
+Text Label 5200 4500 0    50   ~ 0
+USB3-DM-
+Text Label 5200 4700 0    50   ~ 0
+GPIOG11
+Text Label 5200 4800 0    50   ~ 0
+GPIOA7
+Text Label 5200 4900 0    50   ~ 0
+GPIOA6
+Text Label 1600 2000 2    50   ~ 0
+GPIOA4-UART0_TX
+Text Label 1600 2100 2    50   ~ 0
+GPIOA5-UART0_RX-PWM0
+Text Label 1600 2300 2    50   ~ 0
+GPIOG6-UART1_TX
+Text Label 1600 2400 2    50   ~ 0
+GPIOG7-UART1_RX
+Text Label 1600 2500 2    50   ~ 0
+GPIOG8-UART1_RTS
+Text Label 1600 2600 2    50   ~ 0
+GPIOG9-UART1_CTS
+Text Label 1600 2800 2    50   ~ 0
+GPIOA0-UART2_TX
+Text Label 1600 2900 2    50   ~ 0
+GPIOA1-UART2_RX
+Text Label 1600 3000 2    50   ~ 0
+GPIOA2-UART2_RTS
+Text Label 1600 3100 2    50   ~ 0
+GPIOA3-UART2_CTS
+Text Label 1600 3300 2    50   ~ 0
+GPIOA11-I2C0_SCL
+Text Label 1600 3400 2    50   ~ 0
+GPIOA12-I2C0_SDA
+Text Label 1600 3500 2    50   ~ 0
+PCM0_DIN-I2S0_SDIN
+Text Label 1600 3600 2    50   ~ 0
+PCM0_DOUT-I2S0_SDOUT
+Text Label 1600 3800 2    50   ~ 0
+PCM0_CLK-I2S0_BCK-I2C1_SDA
+Text Label 1600 3900 2    50   ~ 0
+PCM0_SYNC-I2S0_LRCK-I2C1_SCL
+Text Label 1600 4100 2    50   ~ 0
+GPIOE12-I2C2_SCL
+Text Label 1600 4200 2    50   ~ 0
+GPIOE13-I2C2_SDA
+Text Label 1600 4400 2    50   ~ 0
+GPIOC0-SPI0_MOSI
+Text Label 1600 4500 2    50   ~ 0
+GPIOC1-SPI0_MISO
+Text Label 1600 4600 2    50   ~ 0
+GPIOC2-SPI0_CLK
+Text Label 1600 4700 2    50   ~ 0
+GPIOC3-SPI0_CS
+Text Label 1600 4900 2    50   ~ 0
+GPIOA13-SPI1_CS
+Text Label 1600 5000 2    50   ~ 0
+GPIOA14-SPI1_CLK
+Text Label 1600 5100 2    50   ~ 0
+GPIOA15-SPI1_MOSI
+Text Label 1600 5200 2    50   ~ 0
+GPIOA16-SPI1_MISO
+Text Label 1600 5400 2    50   ~ 0
+GPIOA17-SPDIF-OUT
+Text Label 3800 5700 2    50   ~ 0
+GND
+$Comp
+L NanoPI:K4B4G1646E U2
+U 1 1 60610E2F
+P 4050 6450
+F 0 "U2" H 4733 6341 50  0000 L CNN
+F 1 "K4B4G1646E" H 4733 6250 50  0000 L CNN
+F 2 "NanoPI:K4B4G1646E" H 4050 6450 50  0001 C CNN
+F 3 "" H 4050 6450 50  0001 C CNN
+	1    4050 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L NanoPI:KLM8G1WEPD-B031 U3
+U 1 1 60615A97
+P 6750 4900
+F 0 "U3" H 7343 4449 50  0000 L CNN
+F 1 "KLM8G1WEPD-B031" H 7343 4358 50  0000 L CNN
+F 2 "NanoPI:KLM8G1WEPD-B031" H 6915 4430 50  0001 C CNN
+F 3 "" H 6915 4430 50  0001 C CNN
+	1    6750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NanoPI:NanoPI_NEO_Core_LTS U1
+U 1 1 6060F5BB
+P 2000 1800
+F 0 "U1" H 3400 -2189 50  0000 C CNN
+F 1 "NanoPI_NEO_Core_LTS" H 3400 -2280 50  0000 C CNN
+F 2 "NanoPI:NanoPI_NEO_Core_LTS_Canonical" H 2420 2360 50  0001 C CNN
+F 3 "" H 2420 2360 50  0001 C CNN
+	1    2000 1800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

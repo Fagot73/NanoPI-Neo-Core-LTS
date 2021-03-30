@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name lscan)(type Legacy)(uri /home/reestr/projects/geom/lidar/lidar-kicad/L-SCAN/lscan-nanopi-universal-v1/libs/lscan.lib)(options "")(descr ""))
+  (lib (name NanoPI)(type Legacy)(uri ${KIPRJMOD}/libs/NanoPI.lib)(options "")(descr ""))
+)
